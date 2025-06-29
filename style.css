@@ -467,9 +467,10 @@ footer li {
 @media (max-width: 576px) {
   html {
     font-size: 60%;
-    justify-content: center;
   }
   .simply-countdown > .simply-section {
+    text-align: center;
+    min-width: 60px;
     padding: 45px;
     margin: 3px;
   }
