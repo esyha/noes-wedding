@@ -672,6 +672,10 @@
       }
 
       function enableScroll() {
+        const hero = document.getElementById("hero");
+
+        hero.removeAttribute("style");
+        document.body.style.overflow = "";
         window.onscroll = function () {};
         rootElement.style.scrollBehavior = "smooth";
         // localStorage.setItem("opened", "true");
@@ -702,9 +706,7 @@
       // if (!localStorage.getItem("opened")) {
       //   disableScroll();
       // }
-      if (!localStorage.getItem("opened")) {
-        disableScroll();
-      }
+      disableScroll();
     </script>
 
     <script>
