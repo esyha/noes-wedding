@@ -52,6 +52,18 @@ body {
   background-color: var(--green);
   color: white;
 }
+/* Tambahkan di bagian bawah style.css */
+.simply-countdown {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 2rem;
+}
+.simply-countdown > .simply-section {
+  text-align: center;
+  min-width: 60px;
+}
 
 .mynavbar {
   background-color: rgba(255, 255, 255, 0.3) !important;
